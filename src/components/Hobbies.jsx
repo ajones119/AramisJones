@@ -15,18 +15,14 @@ const HobbyEntry = ( {titlePicture ='',
     <HobbyEntryWrapper>
         <SectionTitle>{header}</SectionTitle>
         <TitlePicture picture = {titlePicture} />
-        <div class="row">
-            <div class="col-4">
-            <SubPicture picture = {subPicture} />
-            </div>
-            <div class="col-4">
+
                 <Description>
                     {description}
                 </Description>
                 <a href={url}>{url}</a>
-            </div>
+                <SubPicture picture = {subPicture} />
 
-        </div>
+
     </HobbyEntryWrapper>
                             
 );

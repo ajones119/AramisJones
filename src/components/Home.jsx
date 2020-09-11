@@ -43,7 +43,7 @@ export const Home = () => (
         <NavBar />
         <MainContent>
             <Avatar picture='./images/Aramis_and_alaska1.jpg'></Avatar>
-            <Greeting>Hello Good Sir, Im Aramis</Greeting>
+            <Greeting>Hello There, Im Aramis</Greeting>
             <Hobbies>{hobbyStringBuilder()}</Hobbies>
             <SocialLinks>
                 <SocialLink url='https://www.instagram.com/aramisjones13/?hl=en'>

@@ -52,6 +52,7 @@ export const ClassEntryWrapper = Styled.div`
 `;
 
 export const Description = Styled.div`
+    font-size: 1.50em;
     padding: 10px;
     
 `;
@@ -73,12 +74,13 @@ export const TitlePicture = Styled.img`
 `;
 
 export const SubPicture = Styled.img`
-    margin-left: 20px;
+    margin-left: auto;
     margin-right: auto; 
     background-image: url(${props => props.picture});
     width: 350px;
     height: 300px;
     background-size: cover;
-    background-position: top left;
+    background-position: top center;
+    display: block;
 `;
 

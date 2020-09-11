@@ -14,17 +14,13 @@ const ProjectEntry = ( {titlePicture ='',
                         subPicture = ''}) =>(
     <ProjectsEntryWrapper>
         <TitlePicture picture = {titlePicture} />
-        <SectionTitle>{header}</SectionTitle>
-        <div class="row">
-            <div class="col-4">
-            <SubPicture picture = {subPicture} />
-            </div>
-            <div class="col-4">
-                <Description>
-                    {description}
-                </Description>
-            </div>
-        </div>
+        <SectionTitle>{header}</SectionTitle>         
+        <Description>
+          {description}
+        </Description>
+         <SubPicture picture = {subPicture} />
+
+        
     </ProjectsEntryWrapper>
                             
 );
