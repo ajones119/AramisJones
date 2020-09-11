@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/AramisJones/static/css/main.0654d112.chunk.css",
-    "main.js": "/AramisJones/static/js/main.283fbd6e.chunk.js",
-    "main.js.map": "/AramisJones/static/js/main.283fbd6e.chunk.js.map",
+    "main.js": "/AramisJones/static/js/main.1bc3c1e0.chunk.js",
+    "main.js.map": "/AramisJones/static/js/main.1bc3c1e0.chunk.js.map",
     "runtime-main.js": "/AramisJones/static/js/runtime-main.5a0f6f73.js",
     "runtime-main.js.map": "/AramisJones/static/js/runtime-main.5a0f6f73.js.map",
     "static/js/2.c6f7a98c.chunk.js": "/AramisJones/static/js/2.c6f7a98c.chunk.js",
     "static/js/2.c6f7a98c.chunk.js.map": "/AramisJones/static/js/2.c6f7a98c.chunk.js.map",
     "index.html": "/AramisJones/index.html",
-    "precache-manifest.f6f092a6543b26b398fb9058f3edbf49.js": "/AramisJones/precache-manifest.f6f092a6543b26b398fb9058f3edbf49.js",
+    "precache-manifest.6fcc721b4d523791da94f97041eae6fa.js": "/AramisJones/precache-manifest.6fcc721b4d523791da94f97041eae6fa.js",
     "service-worker.js": "/AramisJones/service-worker.js",
     "static/css/main.0654d112.chunk.css.map": "/AramisJones/static/css/main.0654d112.chunk.css.map",
     "static/js/2.c6f7a98c.chunk.js.LICENSE.txt": "/AramisJones/static/js/2.c6f7a98c.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5a0f6f73.js",
     "static/js/2.c6f7a98c.chunk.js",
     "static/css/main.0654d112.chunk.css",
-    "static/js/main.283fbd6e.chunk.js"
+    "static/js/main.1bc3c1e0.chunk.js"
   ]
 }
