@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b393cf1a890bd36506e514be70b78c3",
+    "revision": "cb32643f76390a7e7b42b2f5b9d3f47a",
     "url": "/AramisJones/index.html"
   },
   {
-    "revision": "b8fb3917f0083092185e",
+    "revision": "84c7dc4221b8812cec65",
     "url": "/AramisJones/static/css/main.0654d112.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AramisJones/static/js/2.c6f7a98c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8fb3917f0083092185e",
-    "url": "/AramisJones/static/js/main.1592da80.chunk.js"
+    "revision": "84c7dc4221b8812cec65",
+    "url": "/AramisJones/static/js/main.b3348bf1.chunk.js"
   },
   {
     "revision": "67133eb22d5817704341",
