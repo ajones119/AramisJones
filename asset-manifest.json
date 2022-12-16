@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AramisJones/static/css/main.6d96e5bf.css",
+    "main.js": "/AramisJones/static/js/main.656506af.js",
+    "static/js/787.0ae8b562.chunk.js": "/AramisJones/static/js/787.0ae8b562.chunk.js",
+    "index.html": "/AramisJones/index.html",
+    "main.6d96e5bf.css.map": "/AramisJones/static/css/main.6d96e5bf.css.map",
+    "main.656506af.js.map": "/AramisJones/static/js/main.656506af.js.map",
+    "787.0ae8b562.chunk.js.map": "/AramisJones/static/js/787.0ae8b562.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d96e5bf.css",
+    "static/js/main.656506af.js"
+  ]
+}
