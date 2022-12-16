@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.main-background {
+    background-color: #212121;
+    height: var(--doc-height);
+    height: 100vh;
+}
+
+.main {
+    height: 200vh;
+}
