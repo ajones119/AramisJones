@@ -5,26 +5,17 @@ import { NavigationButton } from '../../components/NavigationButton/NavigationBu
 
 export const Home = () => {
     return (
-      <div style={{ paddingTop: "75px" }}>
+      <div
+        style={{ paddingTop: "50px", paddingLeft: "5px", paddingRight: "5px" }}
+      >
         <Grid
           container
           direction="column"
           justifyContent="center"
           alignItems="center"
         >
-          <Grid item>circle pic here</Grid>
           <Grid item style={{ paddingBottom: "25px" }}>
             <HomeHeader />
-          </Grid>
-          <Grid item>
-            <NavigationButton
-              to="/AramisJones/AboutMe"
-              content={
-                <Typography variant="h2" component="h2">
-                  About Me
-                </Typography>
-              }
-            />
           </Grid>
           <Grid item>
             <NavigationButton
@@ -44,7 +35,7 @@ export const Home = () => {
           </Grid>
           <Grid item>
             <NavigationButton
-              to="/AJ"
+              to="/AramisJones/ContactInfo"
               content={<Typography variant="h2">Contact me</Typography>}
             />
           </Grid>

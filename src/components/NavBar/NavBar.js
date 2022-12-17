@@ -3,17 +3,6 @@ import SELF2 from "../../images/IMG-0104.jpg";
 import {  Nav, Navbar } from "react-bootstrap";
 import { Avatar } from "@mui/material";
 
-const navigation = [
-  { name: "Dashboard", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Calendar", href: "#", current: false },
-];
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
-
 export const NavBar = () => {
   return (
     <>
@@ -30,14 +19,13 @@ export const NavBar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#/AramisJones">Home</Nav.Link>
-            <Nav.Link href="#/AramisJones/AboutMe">About Me</Nav.Link>
             <Nav.Link href="#/AramisJones/WorkAndEducation">
               Work and Education
             </Nav.Link>
             <Nav.Link href="#/AramisJones/PastProjects">
               Past Projects
             </Nav.Link>
-            <Nav.Link href="#/AramisJones/WorkAndEducation">
+            <Nav.Link href="#/AramisJones/ContactInfo">
               Contact Me
             </Nav.Link>
           </Nav>

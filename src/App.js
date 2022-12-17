@@ -1,8 +1,22 @@
+import {Routing} from "./routing";
+import "./index.css";
+import { TopTheme } from "./theme";
+import { ThemeProvider } from "@mui/material";
+
+
+
 function App() {
   return (
-    <>
-      <h1>asdasdasd</h1>
-    </>
+  <div
+    style={{
+      backgroundColor: "#212121",
+      minHeight: "100vh",
+    }}
+  >
+    <ThemeProvider theme={TopTheme}>
+      <Routing />
+    </ThemeProvider>
+  </div>
   );
 }
 
