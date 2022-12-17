@@ -29,10 +29,18 @@ export const HomeHeader = () => {
   const [titles, ] = useState(getTitlesAsFormattedString());
 
   useEffect(() => {
+    setTimeout(() => {
+      setPicIndex(getNewPicIndex(picIndex));
+      console.log("ONCE")
+    }, 8900); //perfect timing here
+  }, []);
+
+  useEffect(() => {
     const interval = setInterval(() => {
       setPicIndex(getNewPicIndex(picIndex))
-    }, 7400); //perfect timing here
-    console.log(interval)
+      console.log("every 10")
+    }, 10000); //perfect timing here
+        
     return () => clearInterval(interval);
   }, [picIndex])
 
@@ -43,8 +51,16 @@ export const HomeHeader = () => {
         justifyContent="center"
         alignItems="center"
       >
-        <Avatar src={PICTURES[picIndex]} alt="Avatar" className="headerPicture" sx={{ width: 400, height: 400 }} />
-        <Typography variant="h4" color="primary"style={{ paddingTop: "25px" }} >
+        <Avatar
+          src={PICTURES[picIndex]}
+          alt="Avatar"
+          className="headerPicture"
+          sx={{ width: 400, height: 400 }} />
+        <Typography
+          variant="h4"
+          color="primary"
+          style={{ paddingTop: "25px" }}
+        >
           {titles}
         </Typography>
       </Grid>

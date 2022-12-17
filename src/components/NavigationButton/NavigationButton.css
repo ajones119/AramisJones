@@ -1,0 +1,38 @@
+.nav-button {
+    display: inline-block;
+    background: linear-gradient(89.81deg,
+            #45e845 -1.72%,
+            #f5f373 54.05%,
+            #0decec 99.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 150% 150%;
+    animation: gradient 3s ease infinite;
+    line-height: 1.2;
+}
+
+.nav-button:hover {
+    border-radius: 25px;
+    border-color: white;
+    display: inline-block;
+    background: white;
+    text-decoration-color: whitesmoke;
+    color: whitesmoke;
+    -webkit-text-fill-color: whitesmoke;
+}
+    
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
