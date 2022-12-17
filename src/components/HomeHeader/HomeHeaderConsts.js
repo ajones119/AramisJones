@@ -1,9 +1,9 @@
-import SELF1 from '../../../public/images/IMG-0106.jpg';
-import ARAMIS_AND_ALASKA from "../../../public/images/Aramis_and_alaska1.jpg";
-import SELF2 from "../../../public/images/IMG-0104.JPG";
-import ARAMIS_AND_CHEESE from "../../../public/images/Aramis_and_Cheeseburger1.jpg";
-import SELF3 from "../../../public/images/BAND2.JPG";
-import SELF4 from "../../../public/images/IMG-5543.JPG";
+import SELF1 from '../../images/IMG-0106.jpg';
+import ARAMIS_AND_ALASKA from "../../public/images/Aramis_and_alaska1.jpg";
+import SELF2 from "../../public/images/IMG-0104.JPG";
+import ARAMIS_AND_CHEESE from "../../public/images/Aramis_and_Cheeseburger1.jpg";
+import SELF3 from "../../public/images/BAND2.JPG";
+import SELF4 from "../../public/images/IMG-5543.JPG";
 
 
 
