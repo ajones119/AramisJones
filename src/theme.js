@@ -1,5 +1,5 @@
 import { createTheme, responsiveFontSizes } from "@mui/material";
-import { lime, green } from "@mui/material/colors";
+import { lime, green, cyan } from "@mui/material/colors";
 
 export const TopTheme = responsiveFontSizes(
   createTheme({
@@ -9,6 +9,9 @@ export const TopTheme = responsiveFontSizes(
       },
       secondary: {
         main: green[700],
+      },
+      tertiary: {
+        main: cyan[200],
       },
     },
   })
