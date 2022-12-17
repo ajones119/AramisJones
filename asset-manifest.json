@@ -1,21 +1,32 @@
 {
   "files": {
     "main.css": "/AramisJones/static/css/main.6d96e5bf.css",
-    "main.js": "/AramisJones/static/js/main.45399c29.js",
+    "main.js": "/AramisJones/static/js/main.ac0d1bad.js",
     "static/js/787.0ae8b562.chunk.js": "/AramisJones/static/js/787.0ae8b562.chunk.js",
     "static/media/IMG-0106.jpg": "/AramisJones/static/media/IMG-0106.9524d9f5d5a74cad634a.jpg",
     "static/media/IMG-0104.jpg": "/AramisJones/static/media/IMG-0104.3748307b2cf732c2051c.jpg",
+    "static/media/Barrys-2.png": "/AramisJones/static/media/Barrys-2.b3500c44563d29b71db1.png",
     "static/media/IMG-5543.JPG": "/AramisJones/static/media/IMG-5543.7e21ad248774dea640a3.JPG",
+    "static/media/Barrys-3.png": "/AramisJones/static/media/Barrys-3.7e7934ea895de6f6bcce.png",
     "static/media/Aramis_and_Cheeseburger1.jpg": "/AramisJones/static/media/Aramis_and_Cheeseburger1.b228c19955ea83d10c16.jpg",
+    "static/media/Barrys-4.png": "/AramisJones/static/media/Barrys-4.95e4e091277f5e6dd6aa.png",
+    "static/media/Barrys-1.png": "/AramisJones/static/media/Barrys-1.450d8391b74aeb5b6633.png",
     "static/media/Aramis_and_alaska1.jpg": "/AramisJones/static/media/Aramis_and_alaska1.3c3de784719a7c936c62.jpg",
+    "static/media/Voter-tool3.png": "/AramisJones/static/media/Voter-tool3.1594eb39adf5a50bf60a.png",
+    "static/media/LD2.png": "/AramisJones/static/media/LD2.b525bc102778377742ec.png",
+    "static/media/Voter-tool4.png": "/AramisJones/static/media/Voter-tool4.838794a99fc96539fbc7.png",
+    "static/media/Voter-tool5.png": "/AramisJones/static/media/Voter-tool5.88c8ae62da09aec64663.png",
     "static/media/Band2.JPG": "/AramisJones/static/media/Band2.72c29b81307cdc17ad1f.JPG",
+    "static/media/LD3.png": "/AramisJones/static/media/LD3.dca33154716e8d6cf9c1.png",
+    "static/media/LD1.png": "/AramisJones/static/media/LD1.43db93c978058bb53f47.png",
+    "static/media/Voter-tool2.png": "/AramisJones/static/media/Voter-tool2.46ad3a40d95ad198b11c.png",
     "index.html": "/AramisJones/index.html",
     "main.6d96e5bf.css.map": "/AramisJones/static/css/main.6d96e5bf.css.map",
-    "main.45399c29.js.map": "/AramisJones/static/js/main.45399c29.js.map",
+    "main.ac0d1bad.js.map": "/AramisJones/static/js/main.ac0d1bad.js.map",
     "787.0ae8b562.chunk.js.map": "/AramisJones/static/js/787.0ae8b562.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d96e5bf.css",
-    "static/js/main.45399c29.js"
+    "static/js/main.ac0d1bad.js"
   ]
 }
