@@ -9,6 +9,9 @@ import Voter1 from "../../images/pastProjects/VoterTool/Voter-tool2.png";
 import Voter2 from "../../images/pastProjects/VoterTool/Voter-tool3.png";
 import Voter3 from "../../images/pastProjects/VoterTool/Voter-tool4.png";
 import Voter4 from "../../images/pastProjects/VoterTool/Voter-tool5.png";
+import Appraise1 from "../../images/pastProjects/Appraise/Appraise1.jpg";
+import Appraise2 from "../../images/pastProjects/Appraise/Appraise2.jpeg";
+
 
 
 
@@ -31,6 +34,14 @@ const BarrysNotesOnBarovia = {
   url: "https://ajones119.github.io/BarrysNotesOnBarovia/#/Campaigns/",
 };
 
+const AppraisalCSVReader = {
+  pictures: [Appraise1, Appraise2],
+  title: "Appraisal CSV Reader",
+  description:
+  "This tool takes in a common Home Appraisal report that shows a list of given sales in a given area. It then digests the data and gives trend information by splitting the sales up into yearly quarters and displaying various calculations in both table and graph form.",
+  url: "https://ajones119.github.io/AppraiseCSVReader",
+};
+
 const VoterTool = {
   pictures: [
     Voter1,
@@ -43,4 +54,9 @@ const VoterTool = {
     "Here, I used the Google Civic API, Angular, and Microsoft Azure in an Enterprise Programming Class. With it a user can enter an address and find out who their representatives are as well as upcoming elections.",
 };
 
-export const PAST_PROJECTS = [BarrysNotesOnBarovia, LoneDefender, VoterTool];
+export const PAST_PROJECTS = [
+  BarrysNotesOnBarovia,
+  AppraisalCSVReader,
+  LoneDefender,
+  VoterTool,
+];
