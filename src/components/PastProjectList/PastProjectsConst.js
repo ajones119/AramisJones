@@ -55,8 +55,8 @@ const VoterTool = {
 };
 
 export const PAST_PROJECTS = [
-  BarrysNotesOnBarovia,
   AppraisalCSVReader,
+  BarrysNotesOnBarovia,
   LoneDefender,
   VoterTool,
 ];
