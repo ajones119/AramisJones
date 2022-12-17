@@ -6,7 +6,7 @@ export const WorkAndExperienceList = ({ title, listEntries, icon }) => {
     return (
       <div style={{ marginLeft: "50px" }}>
         <Typography variant="h2" color="secondary">
-          {title}
+          {icon} {title}
         </Typography>
           {
             listEntries.map(entry => 

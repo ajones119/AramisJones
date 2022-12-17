@@ -1,7 +1,7 @@
 import { Button } from '@mui/material';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { openNewTab } from './helpers';
+import { openNewTab } from '../../shared/utilities';
 import "./NavigationButton.css"
 
 export const NavigationButton = ({

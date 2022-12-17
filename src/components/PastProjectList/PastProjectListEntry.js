@@ -1,6 +1,7 @@
 import { Grid, Typography } from '@mui/material';
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import { NavigationButton } from '../NavigationButton/NavigationButton';
 import "./PastProjectList.css"
 
 export const PastProjectListEntry = ({ pastProject }) => {
@@ -21,6 +22,17 @@ export const PastProjectListEntry = ({ pastProject }) => {
         <Grid item>
           <Typography variant="h3" color="secondary">
             {pastProject.title}
+            {pastProject.url ? (
+              <NavigationButton
+                to="https://ajones119.github.io/BarrysNotesOnBarovia/#/"
+                toExternal
+                content={
+                  <Typography variant="h6" color="secondary">
+                    Go Here
+                  </Typography>
+                }
+              />
+            ) : null}
           </Typography>
         </Grid>
         <Grid item style={{ paddingTop: "25px" }}>

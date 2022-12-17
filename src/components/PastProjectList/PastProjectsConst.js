@@ -24,15 +24,11 @@ const LoneDefender = {
 };
 
 const BarrysNotesOnBarovia = {
-  pictures: [
-    Barry1,
-    Barry2,
-    Barry3,
-    Barry4
-],
+  pictures: [Barry1, Barry2, Barry3, Barry4],
   title: "Barrys Notes On Barovia",
   description:
     "Barrys Notes on Barovia is a website I made for some of the D&D groups I play in. In it, a DM can make announcements, an NPC with a portrait and a description, or reference several other docs. Players can be added to campaigns and leave notes for themselves (privately) or the rest of their party (public notes).",
+  url: "https://ajones119.github.io/BarrysNotesOnBarovia/#/Campaigns/",
 };
 
 const VoterTool = {

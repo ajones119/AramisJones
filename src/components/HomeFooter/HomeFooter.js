@@ -21,13 +21,7 @@ export const HomeFooter = () => {
             toExternal
           />
         </Grid>
-        <Grid item>
-          <NavigationButton
-            content={<GitHubIcon color="tertiary" fontSize="large" />}
-            to="https://github.com/ajones119?tab=repositories"
-            toExternal
-          />
-        </Grid>
+
         <Grid item></Grid>
       </Grid>
     );
