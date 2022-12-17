@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/AramisJones/static/css/main.6d96e5bf.css",
-    "main.js": "/AramisJones/static/js/main.656506af.js",
+    "main.js": "/AramisJones/static/js/main.45399c29.js",
     "static/js/787.0ae8b562.chunk.js": "/AramisJones/static/js/787.0ae8b562.chunk.js",
+    "static/media/IMG-0106.jpg": "/AramisJones/static/media/IMG-0106.9524d9f5d5a74cad634a.jpg",
+    "static/media/IMG-0104.jpg": "/AramisJones/static/media/IMG-0104.3748307b2cf732c2051c.jpg",
+    "static/media/IMG-5543.JPG": "/AramisJones/static/media/IMG-5543.7e21ad248774dea640a3.JPG",
+    "static/media/Aramis_and_Cheeseburger1.jpg": "/AramisJones/static/media/Aramis_and_Cheeseburger1.b228c19955ea83d10c16.jpg",
+    "static/media/Aramis_and_alaska1.jpg": "/AramisJones/static/media/Aramis_and_alaska1.3c3de784719a7c936c62.jpg",
+    "static/media/Band2.JPG": "/AramisJones/static/media/Band2.72c29b81307cdc17ad1f.JPG",
     "index.html": "/AramisJones/index.html",
     "main.6d96e5bf.css.map": "/AramisJones/static/css/main.6d96e5bf.css.map",
-    "main.656506af.js.map": "/AramisJones/static/js/main.656506af.js.map",
+    "main.45399c29.js.map": "/AramisJones/static/js/main.45399c29.js.map",
     "787.0ae8b562.chunk.js.map": "/AramisJones/static/js/787.0ae8b562.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d96e5bf.css",
-    "static/js/main.656506af.js"
+    "static/js/main.45399c29.js"
   ]
 }
