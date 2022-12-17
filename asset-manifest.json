@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AramisJones/static/css/main.6d96e5bf.css",
-    "main.js": "/AramisJones/static/js/main.e64f2315.js",
+    "main.css": "/AramisJones/static/css/main.622a8f6a.css",
+    "main.js": "/AramisJones/static/js/main.57173880.js",
     "static/js/787.0ae8b562.chunk.js": "/AramisJones/static/js/787.0ae8b562.chunk.js",
     "static/media/IMG-0106.jpg": "/AramisJones/static/media/IMG-0106.9524d9f5d5a74cad634a.jpg",
     "static/media/IMG-0104.jpg": "/AramisJones/static/media/IMG-0104.3748307b2cf732c2051c.jpg",
@@ -21,12 +21,12 @@
     "static/media/LD1.png": "/AramisJones/static/media/LD1.43db93c978058bb53f47.png",
     "static/media/Voter-tool2.png": "/AramisJones/static/media/Voter-tool2.46ad3a40d95ad198b11c.png",
     "index.html": "/AramisJones/index.html",
-    "main.6d96e5bf.css.map": "/AramisJones/static/css/main.6d96e5bf.css.map",
-    "main.e64f2315.js.map": "/AramisJones/static/js/main.e64f2315.js.map",
+    "main.622a8f6a.css.map": "/AramisJones/static/css/main.622a8f6a.css.map",
+    "main.57173880.js.map": "/AramisJones/static/js/main.57173880.js.map",
     "787.0ae8b562.chunk.js.map": "/AramisJones/static/js/787.0ae8b562.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d96e5bf.css",
-    "static/js/main.e64f2315.js"
+    "static/css/main.622a8f6a.css",
+    "static/js/main.57173880.js"
   ]
 }
