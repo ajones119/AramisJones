@@ -1,6 +1,5 @@
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import React from 'react';
+import SELF2 from "../../images/IMG-0104.jpg";
 import {  Nav, Navbar } from "react-bootstrap";
 import { Avatar } from "@mui/material";
 
@@ -21,7 +20,7 @@ export const NavBar = () => {
       <Navbar bg="dark" variant="dark" collapseOnSelect fixed="top" expand="sm">
         <Navbar.Brand href="#/AramisJones">
           <Avatar
-            src={"/images/IMG-0104.jpg"}
+            src={SELF2}
             alt="Avatar"
             className="headerPicture"
             sx={{ width: 50, height: 50 }}

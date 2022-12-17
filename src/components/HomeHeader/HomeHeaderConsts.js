@@ -5,8 +5,6 @@ import ARAMIS_AND_CHEESE from "../../images/Aramis_and_Cheeseburger1.jpg";
 import SELF3 from "../../images/Band2.JPG";
 import SELF4 from "../../images/IMG-5543.JPG";
 
-
-
 export const ROTATE_ANIMATION_TIME = 30; //add const to css
 
 export const PICTURES = [

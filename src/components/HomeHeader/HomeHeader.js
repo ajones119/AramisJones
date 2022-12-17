@@ -1,5 +1,4 @@
 import { Avatar, Grid, Typography } from '@mui/material';
-import { height } from '@mui/system';
 import React, { useEffect, useState } from 'react';
 import './HomeHeader.css'
 import { PICTURES, TITLES } from './HomeHeaderConsts';
