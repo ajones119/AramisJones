@@ -21,7 +21,7 @@ export const EDUCATION_HISTORY = [
   "University of Central Oklahoma: 2017- 2021 as a Software Engineering Major.",
   "Oklahoma State University OKC: 2016-2017 as an Engineering Major.",
   "Northern Oklahoma College: 2015-2016 as an Engineering Major.1",
-  "Canadian County Vocational Technology: Graduated from the Into to Engineering program in 2015",
+  "Canadian County Vocational Technology: Graduated from the Intro to Engineering program in 2015",
 ];
 
 export const SKILLS = [
