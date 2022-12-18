@@ -7,7 +7,6 @@ import Barry3 from "../../images/pastProjects/BarrysNotesOnBarovia/Barrys-3.png"
 import Barry4 from "../../images/pastProjects/BarrysNotesOnBarovia/Barrys-4.png";
 import Voter1 from "../../images/pastProjects/VoterTool/Voter-tool2.png";
 import Voter2 from "../../images/pastProjects/VoterTool/Voter-tool3.png";
-import Voter3 from "../../images/pastProjects/VoterTool/Voter-tool4.png";
 import Voter4 from "../../images/pastProjects/VoterTool/Voter-tool5.png";
 import Appraise1 from "../../images/pastProjects/Appraise/Appraise1.jpg";
 import Appraise2 from "../../images/pastProjects/Appraise/Appraise2.jpeg";
@@ -46,7 +45,6 @@ const VoterTool = {
   pictures: [
     Voter1,
     Voter2,
-    Voter3,
     Voter4
 ],
   title: "Voter Tool",
