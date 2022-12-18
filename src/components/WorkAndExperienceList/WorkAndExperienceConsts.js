@@ -1,7 +1,7 @@
 
 export const WORK_HISTORY = [
   "John Marshall High School - February  2021 - Today as a Head Soccer Coach",
-  "Whiskey Cake – February 2020 – February 2021",
+  "Whiskey Cake – February 2020 – February 2021 as a server",
   "BJ’s Restaurant and Brewhouse – July 2018 – February 2020 as a Server",
   "Appraise OKC – August 2016 – July 2018 Here I worked to research and enter data for properties into a program called WINTOTAL.",
   "Bj’s Restaurant and Brewhouse – May 2016 – August 2016 as a host.",
