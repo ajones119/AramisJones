@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AramisJones/static/css/main.6713cbaf.css",
-    "main.js": "/AramisJones/static/js/main.caf9f1d0.js",
+    "main.js": "/AramisJones/static/js/main.17ec1edb.js",
     "static/js/787.0ae8b562.chunk.js": "/AramisJones/static/js/787.0ae8b562.chunk.js",
     "static/media/IMG-0106.jpg": "/AramisJones/static/media/IMG-0106.9524d9f5d5a74cad634a.jpg",
     "static/media/IMG-0104.jpg": "/AramisJones/static/media/IMG-0104.3748307b2cf732c2051c.jpg",
@@ -18,17 +18,16 @@
     "static/media/Appraise2.jpeg": "/AramisJones/static/media/Appraise2.9bedf213894cf9bee526.jpeg",
     "static/media/Voter-tool5.png": "/AramisJones/static/media/Voter-tool5.88c8ae62da09aec64663.png",
     "static/media/Band2.JPG": "/AramisJones/static/media/Band2.72c29b81307cdc17ad1f.JPG",
-    "static/media/_Aramis_Jones_Resume_final.pdf": "/AramisJones/static/media/_Aramis_Jones_Resume_final.1888425880a4744bfc2c.pdf",
     "static/media/LD3.png": "/AramisJones/static/media/LD3.dca33154716e8d6cf9c1.png",
     "static/media/LD1.png": "/AramisJones/static/media/LD1.43db93c978058bb53f47.png",
     "static/media/Voter-tool2.png": "/AramisJones/static/media/Voter-tool2.46ad3a40d95ad198b11c.png",
     "index.html": "/AramisJones/index.html",
     "main.6713cbaf.css.map": "/AramisJones/static/css/main.6713cbaf.css.map",
-    "main.caf9f1d0.js.map": "/AramisJones/static/js/main.caf9f1d0.js.map",
+    "main.17ec1edb.js.map": "/AramisJones/static/js/main.17ec1edb.js.map",
     "787.0ae8b562.chunk.js.map": "/AramisJones/static/js/787.0ae8b562.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6713cbaf.css",
-    "static/js/main.caf9f1d0.js"
+    "static/js/main.17ec1edb.js"
   ]
 }
