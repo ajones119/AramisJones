@@ -7,7 +7,6 @@ import CoffeeIcon from "@mui/icons-material/Coffee";
 import EngineeringIcon from "@mui/icons-material/Engineering";
 import { Button, Typography } from '@mui/material';
 import "../../components/NavigationButton/NavigationButton.css"
-import RESUME_PDF from "../../images/_Aramis_Jones_Resume_final.pdf";
 
 export const WorkAndEducation = () => {
     return (
@@ -37,7 +36,7 @@ export const WorkAndEducation = () => {
             <Typography variant="h4">
               <a
                 download={"Aramis_Jones_Resume_2022.pdf"}
-                href={RESUME_PDF}
+                href={"/resume/AramisJonesResume.pdf"}
                 target="_blank"
                 rel="noreferrer"
               >
