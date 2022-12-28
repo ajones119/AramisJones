@@ -11,9 +11,6 @@ import Voter4 from "../../images/pastProjects/VoterTool/Voter-tool5.png";
 import Appraise1 from "../../images/pastProjects/Appraise/Appraise1.jpg";
 import Appraise2 from "../../images/pastProjects/Appraise/Appraise2.jpeg";
 
-
-
-
 const LoneDefender = {
   pictures: [
     LD1,

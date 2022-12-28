@@ -35,7 +35,14 @@ export const WorkAndEducation = () => {
         <div style={{ paddingLeft: "25px", paddingTop: "25px" }}>
           <Button className="nav-button" variant="text">
             <Typography variant="h4">
-              <a download={"Aramis_Jones_Resume_2022.pdf"} href={RESUME_PDF}>Download Resume as PDF</a>
+              <a
+                download={"Aramis_Jones_Resume_2022.pdf"}
+                href={RESUME_PDF}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Download Resume as PDF
+              </a>
             </Typography>
           </Button>
         </div>
