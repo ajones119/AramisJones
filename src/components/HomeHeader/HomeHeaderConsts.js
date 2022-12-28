@@ -28,14 +28,15 @@ const FUN_TITLES_MINOR = [
   "Played too many hours of Skyrim",
   "Horror Movie Buff",
   "Dungeon Master",
-  "Played a Wizard one time"
+  "Played a Wizard one time",
+  "Plays too much D&D"
 ];
 
 const FUN_TITLES_MAJOR = [
   "Video Game Enthusiast",
   "Loves Cats",
   "Loves Dogs",
-  "Plays Bass",
+  "Plays Bass"
 ];
 
 export const TITLES = [DEV_TITLES, FUN_TITLES_MAJOR, FUN_TITLES_MINOR];

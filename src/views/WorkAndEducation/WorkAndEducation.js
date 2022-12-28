@@ -5,7 +5,9 @@ import SchoolIcon from '@mui/icons-material/School';
 import DvrIcon from "@mui/icons-material/Dvr";
 import CoffeeIcon from "@mui/icons-material/Coffee";
 import EngineeringIcon from "@mui/icons-material/Engineering";
-
+import { Button, Typography } from '@mui/material';
+import "../../components/NavigationButton/NavigationButton.css"
+import RESUME_PDF from "../../images/_Aramis_Jones_Resume_final.pdf";
 
 export const WorkAndEducation = () => {
     return (
@@ -30,6 +32,13 @@ export const WorkAndEducation = () => {
           listEntries={EDUCATION_HISTORY}
           icon={<SchoolIcon color="secondary" fontSize="large" />}
         />
+        <div style={{ paddingLeft: "25px", paddingTop: "25px" }}>
+          <Button className="nav-button" variant="text">
+            <Typography variant="h4">
+              <a download={"Aramis_Jones_Resume_2022.pdf"} href={RESUME_PDF}>Download Resume as PDF</a>
+            </Typography>
+          </Button>
+        </div>
       </>
     );
 }
