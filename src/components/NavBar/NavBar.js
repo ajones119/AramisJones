@@ -20,7 +20,7 @@ export const NavBar = () => {
           <Nav className="me-auto">
             <Nav.Link href="#/AramisJones">Home</Nav.Link>
             <Nav.Link href="#/AramisJones/WorkAndEducation">
-              Work and Education
+              Resume
             </Nav.Link>
             <Nav.Link href="#/AramisJones/PastProjects">
               Past Projects
