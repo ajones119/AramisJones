@@ -6,6 +6,7 @@ import DvrIcon from "@mui/icons-material/Dvr";
 import CoffeeIcon from "@mui/icons-material/Coffee";
 import EngineeringIcon from "@mui/icons-material/Engineering";
 import "../../components/NavigationButton/NavigationButton.css"
+import { Typography } from '@mui/material';
 
 export const WorkAndEducation = () => {
     return (
@@ -30,8 +31,6 @@ export const WorkAndEducation = () => {
           listEntries={EDUCATION_HISTORY}
           icon={<SchoolIcon color="secondary" fontSize="large" />}
         />
-
-        <a href="">DOWNLOAD RESUME</a>
       </>
     );
 }
