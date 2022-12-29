@@ -12,7 +12,7 @@ export const WorkAndEducation = () => {
     return (
       <>
         <WorkAndExperienceList
-          title="Paycom - May 2021 - Today as a Software Engineer12"
+          title="Paycom - May 2021 - Today as a Software Engineer123"
           listEntries={PAYCOM_WORK_HISTORY}
           icon={<EngineeringIcon color="secondary" fontSize="large" />}
         />
@@ -31,12 +31,11 @@ export const WorkAndEducation = () => {
           listEntries={EDUCATION_HISTORY}
           icon={<SchoolIcon color="secondary" fontSize="large" />}
         />
-        <div style={{ paddingLeft: "25px", paddingTop: "25px" }}>
           <Button className="nav-button" variant="text">
             <Typography variant="h4">
               <a
-                download={"Aramis_Jones_Resume_2022.pdf"}
-                href={"../../images/AramisJonesResume.pdf"}
+                download="Aramis_Jones_Resume_2022.pdf"
+                href="../../images/AramisJonesResume.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -44,7 +43,6 @@ export const WorkAndEducation = () => {
               </a>
             </Typography>
           </Button>
-        </div>
       </>
     );
 }
