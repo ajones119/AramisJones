@@ -7,7 +7,6 @@ import CoffeeIcon from "@mui/icons-material/Coffee";
 import EngineeringIcon from "@mui/icons-material/Engineering";
 import { Button, Typography } from '@mui/material';
 import "../../components/NavigationButton/NavigationButton.css"
-import PDF_RESUME from "../../images/AramisJonesResume.pdf";
 
 export const WorkAndEducation = () => {
     return (
