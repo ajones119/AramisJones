@@ -12,7 +12,7 @@ export const WorkAndEducation = () => {
     return (
       <>
         <WorkAndExperienceList
-          title="Paycom - May 2021 - Today as a Software Engineer1234"
+          title="Paycom - May 2021 - Today as a Software Engineer"
           listEntries={PAYCOM_WORK_HISTORY}
           icon={<EngineeringIcon color="secondary" fontSize="large" />}
         />
@@ -35,7 +35,7 @@ export const WorkAndEducation = () => {
           <Typography variant="h4">
             <a
               download="Aramis_Jones_Resume_2022.pdf"
-              href="./AramisJonesResume.pdf"
+              href="./resume.txt"
               target="_blank"
               rel="noreferrer"
             >
