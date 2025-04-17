@@ -1,0 +1,53 @@
+.fancy-button-wrapper {
+  position: relative;
+  display: inline-block;
+  border-radius: 0.75rem;
+  padding: 6px; /* this gives the radar glow some space */
+  z-index: 0;
+  transform: translateZ(0); /* creates stacking context */
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.fancy-button-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #003f5b,
+    #2b4b7d,
+    #5f5195,
+    #98509d,
+    #cc4c91,
+    #f25375,
+    #ff6f4e,
+    #ff9913
+  );
+  animation: radar-spin 3s linear infinite;
+  z-index: -1;
+  filter: blur(8px);
+  pointer-events: none;
+  padding: 30px;
+  height: 300%;
+  width: 100%;
+  left: 0%;
+  top: -75%;
+}
+
+.fancy-button {
+  background-color: black;
+  color: white;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+
+@keyframes radar-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

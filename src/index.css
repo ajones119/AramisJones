@@ -1,13 +1,60 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import "tailwindcss";
 
-.main-background {
-    background-color: #212121;
-    height: var(--doc-height);
-    height: 100vh;
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: var(--color-background);
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.main {
-    height: 200vh;
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #000000;
+  --color-muted: #1e211e;
+  --color-border: #2e2e2a;
+  --color-accent: #7fcf8c;
+  --color-accent-foreground: #0e1c11;
+}
+
+@layer base {
+  @variant dark {
+    :root {
+      --color-background: #000000;
+      --color-foreground: #ffffff;
+      --color-muted: #1e211e;
+      --color-border: #2e2e2a;
+      --color-accent: #7fcf8c;
+      --color-accent-foreground: #0e1c11;
+    }
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-rainbow {
+  animation: rainbow 3s linear infinite;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
 }
