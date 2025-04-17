@@ -153,6 +153,7 @@ export const ParallaxBackdrop = () => {
           src={midgroundHills}
           initial={{ x: 10, opacity: 1 }}
           animate={{ x: 0, opacity: 1 }}
+          transition={{delay: 0.2}}
           className="absolute inset-0 w-full h-full object-cover z-3"
           style={{
             y: y3,
@@ -164,6 +165,7 @@ export const ParallaxBackdrop = () => {
           src={foregroundHillsAndTree}
           initial={{ x: -5, opacity: 1 }}
           animate={{ x: 0, opacity: 1 }}
+          transition={{delay: 0.2}}
           className="absolute inset-0 w-full h-full object-cover z-4"
           style={{
             scale: y4,
